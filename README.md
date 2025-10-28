@@ -25,12 +25,12 @@ Create a private Spotify playlist using the Billboard Hot 100 chart from any dat
 - pip install requests beautifulsoup4 python-dotenv spotipy
 
 ## 🔐 Environment Setup
--Create a .env file in your project directory:
--SPOTIPY_CLIENT_ID=your_client_id_here
--SPOTIPY_CLIENT_SECRET=your_client_secret_here
--SPOTIPY_REDIRECT_URI=http://localhost:8888/callback
+- Create a .env file in your project directory:
+- SPOTIPY_CLIENT_ID=your_client_id_here
+- SPOTIPY_CLIENT_SECRET=your_client_secret_here
+- SPOTIPY_REDIRECT_URI=http://localhost:8888/callback
 
-The script will authenticate with Spotify, create a playlist, and populate it with songs from that date.
+- The script will authenticate with Spotify, create a playlist, and populate it with songs from that date.
 
 ⚠️ Notes
 	•	Some songs may not be available on Spotify
